@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Navidad mi amor 🎄</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="diseno.css">
+</head>
+
+<body>
+
+<div class="snow"></div>
+
+<main class="card">
+
+  <!-- PORTADA -->
+  <section class="cover" id="openCard">
+    <div class="photo-frame">
+      <img src="img.jpeg" alt="Foto de Alejandra">
+    </div>
+    <h1>Feliz Navidad mi Danny 💖</h1>
+    <p class="tap">Toca para abrir 🎁</p>
+  </section>
+
+  <!-- INTERIOR -->
+  <section class="inside">
+    <h2>Feliz Navidad 🎄</h2>
+
+    <p>
+      Feliz primera Navidad, mi amor.  
+      Espero que los regalos de mañana te gusten.  
+      Te amo con todo mi corazón y siempre lo haré 💕
+    </p>
+
+    <p class="big">
+      ¡Felices fiestas, novio mío!
+    </p>
+
+    <p class="signature">
+      Con amor,<br>
+      <span>Alejandra Peñaherrera</span>
+    </p>
+  </section>
+
+</main>
+
+<script>
+  const card = document.querySelector('.card');
+  document.getElementById('openCard').addEventListener('click', () => {
+    card.classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
